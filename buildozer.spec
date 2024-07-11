@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Shadow
+title = Calc Iphone
 
 # (str) Package name
-package.name = myapp
+package.name =Calculator
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.shadsoftstudio
@@ -29,7 +29,7 @@ source.include_exts = py,png,jpg,kv,atlas
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 1.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy,kivymd
-requirements = python3,kivy
+requirements = python3,kivy,kivymd,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -47,7 +47,7 @@ requirements = python3,kivy
 #presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
-#icon.filename = logo.jpg
+#icon.filename = %(source.dir)s/logo.jpg
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
